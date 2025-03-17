@@ -4,6 +4,8 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.js";
 import './App.css';
 import SharedLayout from "./components/SharedLayout";
 import Home from "./pages/Home.jsx"
