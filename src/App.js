@@ -10,6 +10,8 @@ import './App.css';
 import SharedLayout from "./components/SharedLayout";
 import Home from "./pages/Home.jsx"
 import ErrorPage from "./pages/ErrorPage.jsx"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
 
