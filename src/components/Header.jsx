@@ -12,7 +12,7 @@ const Header = () => {
                     <h5 className="fw-bold c-name">KONSULT.</h5>
                 </div>
 
-                <ul className='d-flex gap-3 align-items-center'>
+                <ul className='d-md-flex d-none gap-3 align-items-center'>
                     <li><Link className='nav-link' to="/">HOME</Link></li>
                     <li><Link className='nav-link' to="/">SERVICES</Link></li>
                     <li><Link className='nav-link' to="/">ABOUT US</Link></li>
