@@ -91,7 +91,7 @@ const Hero = () => {
               className="d-flex flex-column gap-4"
             >
               <motion.p
-                className="hero-subtitle text-uppercase text-start muted"
+                className="hero-subtitle fw-bold hero-heading-text text-uppercase text-start muted"
                 variants={textVariants}
               >
                 {slides[currentIndex].heading}
