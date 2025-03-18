@@ -6,7 +6,7 @@ const Intro = () => {
       <div className="container2">
         <div className="grid3">
           <div className="">
-            <img src="../../Images/slide2.jpg" alt="" />
+            <img src="../../Images/intro.jpg" alt="" />
           </div>
           <div className="d-flex flex-column gap-3 align-items-start">
             <h6 className="hero-heading-text  fw-bolder">GET TO KNOW US</h6>
@@ -28,7 +28,7 @@ const Intro = () => {
               brings years of expertise to help your business thrive in a
               competitive market.
             </p>
-            <button>More About Us</button>
+            <button className="main-btn">More About Us</button>
           </div>
         </div>
       </div>

@@ -21,11 +21,15 @@ button{
   border: none;
   outline: none;
   cursor: pointer;
+  background-color: none !important;
+}
+
+.main-btn{
   background-color: #1f68F5;
   color: #fff;
   padding: 10px 1rem !important;
-}
 
+}
 
 
 .hf{
@@ -288,6 +292,22 @@ a {
 
 
 
+
+/* FAQ STYLES */
+.equal-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+
+.faq-btn{
+  background-color: transparent !important;
+  padding: 10px !important;
+}
+
+
+
 @media (max-width: 840px){
   .grid{
     display: grid;
@@ -334,6 +354,11 @@ a {
     grid-gap: 1rem;
   }
 
+  .equal-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
 
   
 }
