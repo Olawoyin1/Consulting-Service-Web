@@ -14,13 +14,15 @@
 
 body{
   font-family: "Jost", sans-serif !important; 
-  background-color: #f9f9f9 !important;
+  background-color: #fAFAFA !important;
 }
 
 button{
   border: none;
   outline: none;
   cursor: pointer;
+  background-color: #1f68F5;
+  color: #fff;
   padding: 10px 1rem !important;
 }
 
@@ -225,6 +227,10 @@ a {
   
 }
 
+.why{
+  background-color: #F5F8FF;
+}
+
 .why-card-image{
   width: 120px;
 }
@@ -242,6 +248,57 @@ a {
   height: 100%;
 }
 
+
+
+
+/* =========FOOTER STYLES========= */
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 3rem !important;
+  
+  /* justify-items: last baseline; */
+  justify-content: space-between;
+}
+
+
+.footer-right {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.footer-right ul h6{
+  letter-spacing: -1px;
+  font-family: "Syncopate", sans-serif;
+}
+
+.footer li {
+
+  width: 100% !important;
+}
+
+.footer{
+  background-color: #111111 !important;
+}
+
+.social{
+  z-index: -1;
+}
+
+
+
+@media (max-width: 840px){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem !important;
+    
+    /* justify-items: last baseline; */
+    /* justify-content: space-between; */
+  }
+  
+}
 
 
 
@@ -276,13 +333,25 @@ a {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
   }
+
+
   
 }
 
+
+@media (max-width: 676px) {
+  .grid{
+    grid-template-columns: 1fr;
+  }
+}
 
 @media (max-width: 576px) {
   .grid2{
     grid-template-columns: 1fr;
     /* grid-gap: 1rem; */
+  }
+
+  .footer-right{
+    grid-template-columns: 1fr 1fr;
   }
 }
