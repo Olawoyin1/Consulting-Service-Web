@@ -38,6 +38,8 @@ button{
   font-family: "Syncopate", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  letter-spacing: -3px;
+
 }
 
 .comp-header p {
@@ -224,7 +226,7 @@ a {
 }
 
 .why-card-image{
-  width: 70px;
+  width: 120px;
 }
 
 .middle{

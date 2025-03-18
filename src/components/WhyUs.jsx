@@ -77,37 +77,37 @@ const WhyUs = () => {
     const whyChooseUs = [
                 {
                   id: 1,
-                  image: "../../Images/quality.png",
+                  image: "../../Images/business.png",
                   name: "Proven Expertise",
                   desc: "With years of experience across various industries, we bring strategic insights and data-driven solutions to drive business success.",
                 },
                 {
                   id: 2,
-                  image: "../../Images/quality.png",
+                  image: "../../Images/solution.png",
                   name: "Tailored Solutions",
                   desc: "We understand that every business is unique. Our consulting services are customized to meet your specific needs and challenges.",
                 },
                 {
                   id: 3,
-                  image: "../../Images/quality.png",
+                  image: "../../Images/statistics.png",
                   name: "Results-Driven Approach",
                   desc: "Our focus is on delivering measurable results, whether it's improving efficiency, increasing revenue, or scaling operations.",
                 },
                 {
                   id: 4,
-                  image: "../../Images/quality.png",
+                  image: "../../Images/helping-hand.png",
                   name: "End-to-End Support",
                   desc: "From strategy development to implementation, we provide full support to ensure your business achieves sustainable growth.",
                 },
                 {
                   id: 5,
-                  image: "../../Images/quality.png",
+                  image: "../../Images/idea.png",
                   name: "Innovative Strategies",
                   desc: "We leverage the latest industry trends, technology, and best practices to keep your business ahead of the competition.",
                 },
                 {
                   id: 6,
-                  image: "../../Images/quality.png",
+                  image: "../../Images/consumer-centric.png",
                   name: "Client-Centric Approach",
                   desc: "Your success is our priority. We work closely with you to ensure solutions align with your vision and business objectives.",
                 }
