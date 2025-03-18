@@ -60,6 +60,15 @@ const Footer = () => {
 
 
             <ul className="p-0 d-flex justify-content-sm-start align-items-sm-start flex-column gap-3 text-sm-start mt-5 mt-sm-4">
+              <h6 className="fw-bold">Quick Links</h6>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Services</li>
+              <li>Contact</li>
+              <li>Portfolio</li>
+            </ul>
+              
+            <ul className="p-0 d-flex justify-content-sm-start align-items-sm-start flex-column gap-3 text-sm-start mt-5 mt-sm-4">
               <h6 className="fw-bold">Social Media</h6>
               <li>Facebook</li>
               <li>Instagram</li>
