@@ -17,6 +17,13 @@ body{
   background-color: #f9f9f9 !important;
 }
 
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 1rem !important;
+}
+
 
 
 .hf{
@@ -199,11 +206,45 @@ a {
 }
 
 
+/* INTRO STYLE */
+.grid3{
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-gap: 1rem;
+}
 
 
 
 
-@media (max-width: 778px) {
+/* WHY US STYLES */
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+.why-card-image{
+  width: 40px;
+}
+
+.middle{
+  border: 1px solid #ccc;
+}
+
+.why-image{
+  background-color: red;
+}
+
+
+.why-image img{
+  height: 100%;
+}
+
+
+
+
+
+@media (max-width: 768px) {
   .hero-title {
     font-size: 2.7rem;
     line-height: 3rem;
@@ -224,5 +265,17 @@ a {
   .container2{
     width: 95%;
   }
+
+  .grid2{
+    grid-template-columns: 1fr 1fr;
+  }
   
+}
+
+
+@media (max-width: 576px) {
+  .grid2{
+    grid-template-columns: 1fr;
+    /* grid-gap: 1rem; */
+  }
 }

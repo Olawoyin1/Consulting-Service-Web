@@ -54,7 +54,7 @@ const offers = [
 
 const Offer = () => {
   return (
-    <div className="container2 mt-4">
+    <div className="container2 mt-4 py-5">
         <div className="comp-header d-flex align-items-center justify-content-center flex-column text-center">
             <h4>What We Offer</h4>
             <p>We provide expert consulting solutions tailored to help businesses thrive, from strategic planning and financial advisory to digital transformation and brand development.</p>
