@@ -9,10 +9,37 @@
   list-style-type: none;
   text-decoration: none;
   /* border: 1px solid red; */
+  /* color: #2a2a2a; */
 }
 
 body{
   font-family: "Jost", sans-serif !important; 
+  background-color: #f9f9f9 !important;
+}
+
+
+
+.hf{
+  /* line-height: 80px; */
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Nixie One", system-ui; 
+}
+
+.comp-header h4{
+  font-size: 2rem;
+  font-family: "Syncopate", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.comp-header p {
+  max-width: 490px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
 }
 
 .muted{
@@ -126,6 +153,7 @@ a {
   position: relative;
   width: fit-content;
   z-index: 1;
+  font-family: "Syncopate", sans-serif 
   
 }
 
@@ -139,6 +167,41 @@ a {
   background-color:#4263A5;
   z-index: -1;
 }
+
+
+
+/* ======Offer STYLES====== */
+.grid1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.7rem;
+}
+
+.service-card{
+  padding: 2rem !important;
+  border-radius: 8px;
+  border: 1px solid #cccccc7e;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+
+
+
+.serv-image{
+  width: 40px;
+}
+
+.offer-image-box{
+  width: fit-content;
+  background-color: #f9f9f9 !important;
+}
+
+
+
+
+
 
 @media (max-width: 778px) {
   .hero-title {
