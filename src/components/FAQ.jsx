@@ -84,7 +84,7 @@ const FAQ = () => {
                                         <div className="num d-none d-md-flex fw-bold align-items-center justify-content-center">
                                             0{faq.id}
                                         </div>
-                                        <p className="fw-bold faq-q">{faq.question}</p>
+                                        <h6 className="fw-bold faq-q">{faq.question}</h6>
                                     </div>
                                     <motion.button
                                         onClick={() => handleFaqToggle(faq.id)}
