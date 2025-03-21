@@ -24,10 +24,11 @@ const ServiceCard = () => {
             "We help businesses streamline project execution, ensuring efficiency, productivity, and goal achievement.",
           icon: "../../Images/management.png",
           serviceList: [
-            {text: "Project planning and execution strategies." },
-            {text: "Agile and Scrum project methodologies." },
-            {text: "Resource allocation and risk management." },
-            {text: "Project monitoring, evaluation, and reporting." },
+            { text: "Project planning and execution strategies." },
+            { text: "Agile and Scrum methodologies for efficiency." },
+            { text: "Resource allocation and risk management." },
+            { text: "Project monitoring, evaluation, and reporting." },
+            { text: "Stakeholder communication and collaboration." },
           ],
         },
         {
@@ -45,25 +46,26 @@ const ServiceCard = () => {
         {
           name: "Logistics & Supply Chain",
           description:
-            "Streamline your operations with our end-to-end logistics and supply chain management solutions.",
+            "Optimize your supply chain with our expert logistics solutions designed to enhance efficiency and reduce costs.",
           icon: "../../Images/supply-chain.png",
           serviceList: [
-            {  text: "Efficient supply chain optimization services." },
-            {  text: "Inventory and warehouse management solutions." },
-            {  text: "Last-mile delivery and distribution strategies." },
-            {  text: "Custom logistics consulting for businesses." },
+            { text: "End-to-end supply chain optimization." },
+            { text: "Inventory and warehouse management solutions." },
+            { text: "Last-mile delivery and distribution strategies." },
+            { text: "Custom logistics consulting for businesses." },
           ],
         },
         {
           name: "Social Media Management",
           description:
-            "We help brands build their online presence, engage their audience, and drive growth through social media marketing.",
+            "We help brands build their online presence, engage their audience, and drive growth through strategic social media marketing.",
           icon: "../../Images/bullhorn.png",
           serviceList: [
-            {text: "Content creation and strategy development." },
-            {text: "Community management and audience engagement." },
-            {text: "Social media advertising and campaign optimization." },
-            {text: "Performance analytics and reporting." },
+            { text: "Content creation and social media strategy." },
+            { text: "Community engagement and audience growth." },
+            { text: "Paid advertising and influencer partnerships." },
+            { text: "Analytics and performance tracking." },
+            { text: "Brand reputation and crisis management." },
           ],
         },
         {
@@ -72,10 +74,23 @@ const ServiceCard = () => {
             "We provide career coaching and professional development to help individuals reach their full potential.",
           icon: "../../Images/goal.png",
           serviceList: [
-            {text: "Personalized career coaching and mentorship." },
-            {text: "Resume and LinkedIn profile optimization." },
-            {text: "Job search strategies and interview preparation." },
-            {text: "Skill development and career transition support." },
+            { text: "Personalized career coaching and mentorship." },
+            { text: "Resume and LinkedIn profile optimization." },
+            { text: "Job search strategies and interview preparation." },
+            { text: "Skill development and career transition support." },
+          ],
+        },
+        {
+          name: "Web Development",
+          description:
+            "We build high-performing, user-friendly websites and applications to enhance digital experiences.",
+          icon: "../../Images/coding.png",
+          serviceList: [
+            { text: "Custom website and web application development." },
+            { text: "E-commerce solutions and online store setup." },
+            { text: "Content Management System (CMS) integration." },
+            { text: "Website security, maintenance, and optimization." },
+            { text: "SEO, performance enhancement, and mobile responsiveness." },
           ],
         },
         {
@@ -84,41 +99,48 @@ const ServiceCard = () => {
             "We help businesses develop strategic plans that drive sustainable growth and competitive advantage.",
           icon: "../../Images/developing.png",
           serviceList: [
-            {text: "Market research and industry analysis." },
-            {text: "Business model innovation and optimization." },
-            {text: "Strategic growth planning and execution." },
-            {text: "Competitive positioning strategies." },
+            { text: "Market research and competitive analysis." },
+            { text: "Business model innovation and optimization." },
+            { text: "Strategic growth planning and execution." },
+            { text: "Brand positioning and differentiation strategies." },
           ],
         },
         {
           name: "Legal & Compliance Consulting",
           description:
-            "Ensure your business operates within legal frameworks with our compliance solutions.",
+            "Ensure your business operates within legal frameworks with our comprehensive compliance solutions.",
           icon: "../../Images/legal.png",
           serviceList: [
-            {text: "Regulatory compliance and risk management." },
-            {text: "Contract drafting and legal advisory." },
-            {text: "Business incorporation and licensing." },
-            {text: "Intellectual property protection." },
+            { text: "Regulatory compliance and corporate governance." },
+            { text: "Contract drafting and legal advisory." },
+            { text: "Business incorporation and licensing support." },
+            { text: "Intellectual property and trademark protection." },
           ],
         },
         {
           name: "Human Resource Consulting",
           description:
-            "Optimize your workforce and improve employee experience with our HR solutions.",
+            "Optimize your workforce and improve employee experience with our HR solutions tailored to your business needs.",
           icon: "../../Images/recruitment.png",
           serviceList: [
-            {text: "Talent acquisition and recruitment services." },
-            {text: "Employee engagement and retention strategies." },
-            {text: "HR policy development and compliance." },
-            {text: "Performance management solutions." },
+            { text: "Talent acquisition and recruitment services." },
+            { text: "Employee engagement and retention strategies." },
+            { text: "HR policy development and legal compliance." },
+            { text: "Diversity, equity, and inclusion initiatives." },
+            { text: "Performance management and leadership training." },
           ],
         },
       ];
       
       
+      
   return (
     <div className="container2 my-5">
+        <div className="comp-header mb-4 d-flex align-items-center justify-content-center flex-column text-center">
+            <h4>What We Offer</h4>
+            <p>We provide expert consulting solutions tailored to help businesses thrive, from strategic planning and financial advisory to digital transformation and brand development.</p>
+
+        </div>
       <div className="grid4">
         {services.map((service, index) => (
           <div key={index} className="service-card d-flex flex-column gap-4">

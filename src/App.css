@@ -193,6 +193,14 @@ a {
 
 
 
+
+/* TESTIMONIALS STYLES */
+.test-user{
+  width: 4rem;
+}
+
+
+
 /* ======Offer STYLES====== */
 .grid1{
   display: grid;
@@ -289,8 +297,9 @@ a {
 }
 
 .serv-card-header{
-  width: fit-content !important;
+  width:70%;
   display: inline-block;
+
 }
 
 .line::after{
@@ -306,6 +315,37 @@ a {
   background-color: #fAFAFA;
   box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
 }
+
+
+/* STATISTICSS STYLES */
+.statistics{
+  background-image: url("../public//Images/intro.jpg");
+  min-height: 490px;
+  background-color: #515050;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid7{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+
+
+.stat{
+  color: #ffffff;
+  text-align: center;
+}
+
+.stat h1{
+  
+  font-family: "Syncopate", sans-serif;
+}
+
+
 
 
 
@@ -387,6 +427,10 @@ a {
 
   .grid4{
     grid-template-columns:1fr;
+  }
+
+  .grid7{
+    grid-template-columns: 1fr 1fr;
   }
   
 

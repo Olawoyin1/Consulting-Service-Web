@@ -6,15 +6,18 @@ import Offer from '../components/Offer'
 import WhyUs from '../components/WhyUs'
 import FAQ from '../components/FAQ'
 import ServiceCard from '../components/ServiceCard'
+import Testimonials from '../components/Testimonials'
+import Statistics from '../components/Statistics'
 
 const Home = () => {
   return (
     <div>
         <Hero />
         <Intro />
-        <ServiceCard />
         <WhyUs />
-        <Offer />
+        <ServiceCard />
+        <Statistics />
+        {/* <Testimonials /> */}
         <FAQ />
     </div>
   )
