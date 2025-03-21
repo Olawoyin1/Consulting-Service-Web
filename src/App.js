@@ -12,6 +12,7 @@ import Home from "./pages/Home.jsx"
 import ErrorPage from "./pages/ErrorPage.jsx"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Services from "./pages/Services.jsx";
 
 function App() {
 
@@ -21,6 +22,9 @@ function App() {
         <Route index element={<Home/>} />
 
         <Route path="*" element={<ErrorPage />} />
+
+        <Route path="services" element={<Services />} />
+
 
       
 

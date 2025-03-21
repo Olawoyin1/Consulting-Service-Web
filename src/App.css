@@ -17,6 +17,10 @@ body{
   background-color: #fAFAFA !important;
 }
 
+.error{
+  min-height: 70vh;
+}
+
 button{
   border: none;
   outline: none;
@@ -260,6 +264,53 @@ a {
 
 
 
+
+/* SERVICES STYLES */
+.grid4{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+
+.serv-card-image{
+  width: 20px;
+}
+
+.line{
+  position: relative;
+  /* width: 40%; */
+  margin: 0;
+
+}
+
+.s-image{
+  width: 30px;
+}
+
+.serv-card-header{
+  width: fit-content !important;
+  display: inline-block;
+}
+
+.line::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #111111;
+}
+
+.img-box{
+  padding: 10px !important;
+  background-color: #fAFAFA;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+
+
+
+
 /* =========FOOTER STYLES========= */
 .grid{
   display: grid;
@@ -333,6 +384,11 @@ a {
     font-size: 2.7rem;
     line-height: 3rem;
   }
+
+  .grid4{
+    grid-template-columns:1fr;
+  }
+  
 
   .hero-container {
     position: relative;

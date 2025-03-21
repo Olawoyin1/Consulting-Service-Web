@@ -5,13 +5,14 @@ import Test from '../components/Test'
 import Offer from '../components/Offer'
 import WhyUs from '../components/WhyUs'
 import FAQ from '../components/FAQ'
+import ServiceCard from '../components/ServiceCard'
 
 const Home = () => {
   return (
     <div>
         <Hero />
-        {/* <Test /> */}
         <Intro />
+        <ServiceCard />
         <WhyUs />
         <Offer />
         <FAQ />
