@@ -23,7 +23,7 @@ const Header = () => {
                 <ul className='d-flex align-items-center gap-3'>
                     <div className="h-contact  d-flex flex-column ">
                         <small className='muted'>Need Help? Talk to an Expert</small>
-                        <p className='m-0'>(+234)80 1232 4771</p>
+                        <p className='m-0'> (+44) 7943 722218</p>
                     </div>
                     <FiSearch  size={24}/>
                 </ul>

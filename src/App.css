@@ -202,6 +202,7 @@ a {
 
 
 /* ======Offer STYLES====== */
+
 .grid1{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -214,7 +215,7 @@ a {
   border: 1px solid #cccccc7e;
   box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #FAFAFA;
 }
 
 
@@ -281,6 +282,7 @@ a {
 }
 
 
+
 .serv-card-image{
   width: 20px;
 }
@@ -314,6 +316,38 @@ a {
   padding: 10px !important;
   background-color: #fAFAFA;
   box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+
+
+/* MISSION STYLES */
+.mission-header{
+  width: 7rem;
+  border-radius: 50%;
+  height: 7rem;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  border: 1px solid #cccccc7e;
+  
+}
+
+.number{
+  position: absolute;
+  top: 0.7rem;
+  right: -8px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #111111;
+  color: #ffffff;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+.mission-card h4, .number{
+  letter-spacing: -2px;
+  font-family: "Syncopate", sans-serif;
+  text-transform: uppercase;
 }
 
 

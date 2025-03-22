@@ -1,13 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import {
-  FaXTwitter,
-  FaLinkedinIn,
-  FaFacebookF,
-  FaPhone,
-} from "react-icons/fa6";
-import { GrInstagram } from "react-icons/gr";
-import { TbArrowBadgeRightFilled } from "react-icons/tb";
 
 const Footer = () => {
   return (
@@ -42,7 +33,7 @@ const Footer = () => {
                 <small>Social Media Management</small>
               </li>
               <li className="d-flex align-items-center gap-2">
-                <small>Market Research & Analysis</small>
+                <small>Human Resource Consulting</small>
               </li>
             </ul>
 
@@ -52,7 +43,7 @@ const Footer = () => {
               <h6 className="fw-bold">Quick Contact</h6>
               <small>Need expert advice? Contact our team today.</small>
               <li>
-                 +(234) 8123443332
+                (+44) 7943 722218
               </li>
               <small>10, Business Avenue, Victoria Island, Lagos</small>
               <li><small>Global.Konsult@gmail.com</small></li>

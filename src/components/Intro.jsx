@@ -28,7 +28,7 @@ const Intro = () => {
               brings years of expertise to help your business thrive in a
               competitive market.
             </p>
-            <button className="main-btn">More About Us</button>
+            {/* <button className="main-btn">More About Us</button> */}
           </div>
         </div>
       </div>
