@@ -6,20 +6,17 @@ import Slider from "react-slick";
 const Testimonials = () => {
 
     const settings = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 6000,
-        autoplaySpeed: 0,
-        cssEase: "linear",
-        pauseOnHover: true,
-        pauseOnFocus: true,
-        arrows: false,
-        draggable: true, // Enables dragging
-        swipeToSlide: true, // Allows smooth swipe transitions
-        touchThreshold: 10, // Adjusts touch sensitivity
+        dots: true,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 1500,
+  autoplaySpeed: 3500,
+  cssEase: "ease-in-out",
+  arrows: false,
+  centerMode: true,
+  centerPadding: "0px", 
         responsive: [
           {
             breakpoint: 1024, // Tablets
@@ -108,6 +105,8 @@ const testimonialData = [
 
   return (
     <div className="pt-5">
+
+
       {/* Section Header */}
       <div className="comp-header d-flex align-items-center justify-content-center flex-column text-center">
         <h4>What Our Clients Say</h4>
@@ -116,33 +115,37 @@ const testimonialData = [
         </p>
       </div>
 
-      {/* Testimonials */}
-      <div className="testimonials slider-container  py-5">
 
-      <Slider {...settings}>
+      <div className="container2">
+        {/* Testimonials */}
+        <div className="testimonials slider-container  py-5">
+
+        <Slider {...settings}>
 
 
-        {testimonialData.map((testimonial, index) => (
-          <div key={index} className="testimonial-card bg-white service-card  d-flex flex-column gap-2">
-            {/* User Info */}
-            <div className="test-header d-flex align-items-center gap-2">
-              <div className="test-user-image overflow-hidden">
-                <img src={testimonial.image} className="test-user" alt={testimonial.name} />
-              </div>
-              <div className="details d-flex flex-column">
-                <h5 className="hf">{testimonial.name}</h5>
-                <p>{testimonial.role}</p>
-              </div>
+            {testimonialData.map((testimonial, index) => (
+            <div key={index} className="testimonial-card bg-white  d-flex flex-column gap-2">
+                {/* User Info */}
+                <div className="test-header d-flex align-items-center gap-2">
+                <div className="test-user-image overflow-hidden">
+                    <img src={testimonial.image} className="test-user" alt={testimonial.name} />
+                </div>
+                <div className="details d-flex flex-column">
+                    <h5 className="hf1">{testimonial.name}</h5>
+                    <p>{testimonial.role}</p>
+                </div>
+                </div>
+                {/* Feedback Content */}
+                <div className="test-content">
+                <p>{testimonial.feedback}</p>
+                </div>
             </div>
-            {/* Feedback Content */}
-            <div className="test-content">
-              <p>{testimonial.feedback}</p>
-            </div>
-          </div>
-        ))}
+            ))}
 
-</Slider>
+    </Slider>
+        </div>
       </div>
+
     </div>
   );
 };
