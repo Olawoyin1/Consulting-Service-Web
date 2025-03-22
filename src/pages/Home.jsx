@@ -19,7 +19,7 @@ const Home = () => {
         <WhyUs />
         <ServiceCard />
         <Statistics />
-        {/* <Testimonials /> */}
+        <Testimonials />
         <FAQ />
     </div>
   )

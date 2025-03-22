@@ -195,9 +195,30 @@ a {
 
 
 /* TESTIMONIALS STYLES */
-.test-user{
+.test-user-image{
   width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
 }
+
+.testimonial-card{
+  min-height: 230px !important;
+}
+
+.test-user-image img{
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.slick-slide>div {padding: 0 7px !important;}
+
+.slick-track{
+  margin: 0 !important;
+  padding: 0 !important;
+  height: fit-content !important;
+}
+
 
 
 
