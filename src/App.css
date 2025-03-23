@@ -260,6 +260,11 @@ a {
 }
 
 
+.icon{
+  min-width: 1rem !important;
+  color: rgb(12, 12, 84);
+}
+
 
 
 .serv-image{

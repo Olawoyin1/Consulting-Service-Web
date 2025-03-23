@@ -133,7 +133,7 @@ const ServiceCard = () => {
               <div className="serv-details d-flex flex-column gap-3">
                 {service.serviceList.map((item, idx) => (
                   <li key={idx} className="d-flex align-items-center gap-2">
-                      <GoVerified />  
+                      <GoVerified  className="icon"/>  
                     <p>{item.text}</p>
                   </li>
                 ))}
