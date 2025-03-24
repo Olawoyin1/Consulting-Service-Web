@@ -15,6 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Services from "./pages/Services.jsx";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { HelmetProvider } from "react-helmet-async";
 
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
       )
     )
 
-    return <RouterProvider router={main} />;
+    return (<HelmetProvider><RouterProvider router={main} /></HelmetProvider>);
 }
 
 export default App;

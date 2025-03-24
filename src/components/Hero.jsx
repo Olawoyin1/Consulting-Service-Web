@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Helmet } from "react-helmet-async";
 
 const slides = [
   {
@@ -58,6 +59,24 @@ const Hero = () => {
 
   return (
     <div className="container2">
+
+       <Helmet>
+        <title>Consultents | Your Partner in Business Growth - Expert Business Consulting</title>
+        <meta
+          name="description"
+          content="Consultent provides top-tier consulting services in finance, logistics, and social media management. Empower your business with expert guidance and strategic solutions tailored for success."
+        />
+        <meta name="keywords" content="Business consulting, Finance, Logistics,Website Development & Online Prescence, Digital marketing, Growth strategies" />
+        <meta name="author" content="GrowthEdge Solutions" />
+
+        {/* Open Graph for Social Media */}
+        <meta property="og:title" content="Expert Business Consulting - GrowthEdge Solutions" />
+        <meta property="og:description" content="We help businesses achieve success with our expert consulting services." />
+        <meta property="og:image" content="https://olawoyin-konsult.netlify.app/logo.jpg" />
+        <meta property="og:url" content="https://olawoyin-konsult.netlify.app/" />
+      </Helmet>
+
+
       <div className="hero-container rounded p-md-5 p-3 mt-1">
         {/* Background Image Transition */}
         <div className="hero-background">

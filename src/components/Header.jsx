@@ -9,7 +9,7 @@ const Header = () => {
             <nav className='navbar d-flex align-items-center'>
                 <Link to="/" className="nav-logo nav-link d-flex align-items-center gap-1">
                     <img src="../../Images/logo.png" className='logo' alt="" />
-                    <h5 className="fw-bold c-name">KONSULT.</h5>
+                    <h5 className="fw-bold c-name text-uppercase">Consultents</h5>
                 </Link>
 
                 <ul className='d-md-flex d-none gap-3 align-items-center'>

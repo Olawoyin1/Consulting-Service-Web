@@ -17,7 +17,7 @@ const Intro = () => {
     
 
             <p>
-              At Konsult, we believe that success is built
+              At Consultents, we believe that success is built
               on strong partnerships, expert guidance, and innovative solutions.
               Our goal is to empower businesses with the right strategies,
               tools, and support to achieve long-term growth. We are more than
@@ -26,7 +26,7 @@ const Intro = () => {
               solutions that drive measurable success. Whether it's financial
               planning, logistics management, or digital strategy, our team
               brings years of expertise to help your business thrive in a
-              competitive market.
+              competitive market.By leveraging data-driven insights and industry best practices, we craft solutions that are both practical and scalable. Our client-focused approach ensures that every strategy we implement aligns with your vision, positioning your business for sustainable success.
             </p>
             {/* <button className="main-btn">More About Us</button> */}
           </div>
