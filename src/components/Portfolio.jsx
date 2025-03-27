@@ -153,7 +153,7 @@ const Portfolio = () => {
       <h1 className="text-center mb-4 hero-title">Portfolio</h1>
       
       {/* Category Buttons with Motion */}
-      <div className="d-flex gap-2 justify-content-center mb-4">
+      <div className="d-flex flex-column flex-sm-row gap-2 justify-content-center mb-4">
         {categories.map((category) => (
           <motion.button
             key={category}
