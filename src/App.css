@@ -573,26 +573,29 @@ a {
 
 .mobile-nav ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  /* padding: 0; */
+  /* margin: 0; */
   text-align: center;
+  width: 100%;
+  min-height: 400px;
+  display: block !important;
 }
 
 .mobile-nav li {
-  margin: 15px 0;
+  display: block !important;
+  margin: 5px 0 !important;
 }
 
 .mobile-nav a {
   color: #ffffff;
-  font-size: 20px;
+  display: block !important;
+  font-size: 2rem;
+  padding: 1rem !important;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
-.mobile-nav a:hover {
-  color: #ffcc00; /* Change color on hover */
-}
 
 /* Close Button */
 .close-btn {

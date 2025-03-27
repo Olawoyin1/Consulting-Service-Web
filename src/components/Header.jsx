@@ -94,8 +94,8 @@ const Header = () => {
           <ul className="d-md-flex d-none gap-3 align-items-center">
             <li><Link className="nav-link" to="/">HOME</Link></li>
             <li><Link className="nav-link" to="/services">SERVICES</Link></li>
-            <li><Link className="nav-link" to="/about">ABOUT US</Link></li>
-            <li><Link className="nav-link" to="/contact">CONTACT</Link></li>
+            <li><Link className="nav-link" to="/">ABOUT US</Link></li>
+            <li><Link className="nav-link" to="/">CONTACT</Link></li>
             <li><Link className="nav-link" to="/portfolio">PORTFOLIO</Link></li>
           </ul>
 
