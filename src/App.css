@@ -487,6 +487,7 @@ a {
   padding: 7px 10px !important;
   background-color: transparent !important;
   opacity: 0.4;
+  color: #111111;
   /* transition: all 100ms linear; */
 }
 
