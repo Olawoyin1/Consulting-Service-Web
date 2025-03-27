@@ -16,6 +16,7 @@ import Services from "./pages/Services.jsx";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { HelmetProvider } from "react-helmet-async";
+import Portfolio from "./components/Portfolio.jsx";
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
         <Route path="*" element={<ErrorPage />} />
 
         <Route path="services" element={<Services />} />
+
+        <Route path="portfolio" element={<Portfolio />} />
 
 
       

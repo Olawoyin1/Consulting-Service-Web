@@ -468,6 +468,33 @@ a {
 }
 
 
+/* PORTFOLIO STYLES */
+
+
+.cat-btn{
+  padding: 7px 10px !important;
+  background-color: transparent !important;
+  opacity: 0.4;
+  /* transition: all 100ms linear; */
+}
+
+.btn-active{
+  opacity: 1;
+  border: 2px solid #111111;
+  
+}
+
+.card-title{
+  font-size: 18px;
+  font-family: "Nixie One", system-ui; 
+}
+
+.port-det p {
+  font-weight: bold;
+  font-family: "Nixie One", system-ui; 
+
+}
+
 
 
 /* FAQ STYLES */
