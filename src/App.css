@@ -17,6 +17,18 @@ body{
   background-color: #fAFAFA !important;
 }
 
+.h-contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.box h6{
+
+  font-family: "Nixie One", system-ui; 
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .error{
   min-height: 70vh;
 }
@@ -489,11 +501,12 @@ a {
   font-family: "Nixie One", system-ui; 
 }
 
-.port-det p {
+.port-det p, .card-subtitle, .cf {
   font-weight: bold;
   font-family: "Nixie One", system-ui; 
 
 }
+
 
 
 
@@ -539,6 +552,23 @@ a {
   .hero-title {
     font-size: 2.7rem;
     line-height: 3rem;
+  }
+
+  .header-ul{
+    /* display: block !important; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    width: 100%;
+    height: 100vh !important;
+    z-index: 9999;
+    padding: 3rem !important;
+  }
+
+  .header ul li{
+    color: #ffffff !important;
+    margin-bottom: 1rem !important;
   }
 
   .grid4{
@@ -610,5 +640,14 @@ a {
 
   .footer-right{
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+@media (max-width: 370px) {
+  .h-contact {
+    display: none !important;
+    /* visibility: hidden; */
   }
 }

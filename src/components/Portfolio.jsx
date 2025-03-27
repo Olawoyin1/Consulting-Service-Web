@@ -4,6 +4,7 @@ import { FiUser } from "react-icons/fi";
 import { SlLocationPin } from "react-icons/sl";
 import { RiCheckLine } from "react-icons/ri";
 import { BsGlobe } from "react-icons/bs";
+import { RiSettingsLine } from "react-icons/ri";
 
 const portfolio = [
   {
@@ -206,12 +207,12 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <h6 className="card-subtitle mb-2 text-muted">{item.service}</h6>
-                <p className="card-text"><strong>Problem:</strong> {item.problem}</p>
-                <p className="card-text"><strong>Solution:</strong> {item.solution}</p>
+                <h6 className="card-subtitle d-flex align-items-center gap-1 mb-2 text-muted"><RiSettingsLine />{item.service}</h6>
+                <p className="card-text"><strong className="cf">Problem:</strong> {item.problem}</p>
+                <p className="card-text"><strong className="cf">Solution:</strong> {item.solution}</p>
                 
                 <ul>
-                  <p><strong>Results:</strong></p>
+                  <p><strong className="cf">Results:</strong></p>
                   {item.resultsArray.map((result, i) => (
                     <li key={i} className="d-flex align-items-center gap-1">
                       <RiCheckLine />
@@ -223,7 +224,7 @@ const Portfolio = () => {
                 {item.category === "Web Development" && item.website && (
                   <p className="d-flex align-items-center gap-1">
                     <BsGlobe />
-                    <strong>Website:</strong>{" "}
+                    <strong className="cf">Website:</strong>{" "}
                     <a href={item.website} target="_blank" rel="noopener noreferrer">
                       {item.website}
                     </a>

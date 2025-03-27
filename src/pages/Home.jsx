@@ -7,6 +7,7 @@ import ServiceCard from '../components/ServiceCard'
 import Testimonials from '../components/Testimonials'
 import Statistics from '../components/Statistics'
 import Mission from '../components/Mission'
+import ContactUs from '../components/ContactUs'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <Statistics />
         <Testimonials />
         <FAQ />
+        <ContactUs />
     </div>
   )
 }
