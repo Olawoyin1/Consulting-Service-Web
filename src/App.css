@@ -297,6 +297,19 @@ a {
   grid-gap: 1rem;
 }
 
+.grid3 .about-image{
+  /* height: 359px; */
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.grid3 .about-image img{
+  max-width: 100%;
+  object-fit: contain !important;
+  height: 100% !important;
+
+}
+
 .about-image img{
   object-fit: cover;
   height: 100%;
