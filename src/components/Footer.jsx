@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <ul className="p-0 mt-5 mt-sm-4 d-flex justify-content-sm-start align-items-sm-start flex-column gap-3">
                <div className="nav-logo d-flex align-items-center gap-1">
-                  <img src="../../Images/logo.png" className='logo' alt="" />
+                  <img src="../../Images/logo1.png" className='logo' alt="" />
                   <h5 className="fw-bold c-name">CONSULTENTS.</h5>
                 </div>
                 <small className="text-sm-start">

@@ -83,12 +83,7 @@ const WhyUs = () => {
             ))}
           </div>
 
-          {/* Middle Section for Spacing or Image */}
-          {/* <div className="middle d-none rounded overflow-hidden d-md-grid ">
-            <div className="why-image">
-              <img src="../../Images/slide1.jpg" alt="Why Us" />
-            </div>
-          </div> */}
+          
 
           <div className="middle d-none rounded overflow-hidden d-md-grid">
             <div

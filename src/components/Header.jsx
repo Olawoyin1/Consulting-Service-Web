@@ -19,7 +19,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <ul className="d-md-flex d-none gap-3 align-items-center">
+          <ul className="d-lg-flex d-none gap-3 align-items-center">
             <li><Link className="nav-link" to="/">HOME</Link></li>
             <li><Link className="nav-link" to="/services">SERVICES</Link></li>
             <li><Link className="nav-link" to="/">ABOUT US</Link></li>
@@ -56,8 +56,8 @@ const Header = () => {
               <p className="m-0">(+44) 7943 722218</p>
             </div>
 
-            <FiSearch className="d-none d-md-flex" size={24} />
-            <VscMenu className="d-flex d-md-none" onClick={() => setOpen(true)} size={28} />
+            <FiSearch className="d-none d-lg-flex" size={24} />
+            <VscMenu className="d-flex d-lg-none" onClick={() => setOpen(true)} size={28} />
           </ul>
         </nav>
       </div>
