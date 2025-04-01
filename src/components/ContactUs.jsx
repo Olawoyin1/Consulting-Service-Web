@@ -35,7 +35,7 @@ const ContactUs = () => {
             <RiMailSendLine size={20} />
             <h6 className="text-bold">Email</h6>
             <small>contact@consultingservices.com</small>
-            <a className="text-muted" href="mailto:yustee2017@gmail.com">
+            <a className=" text-white" href="mailto:yustee2017@gmail.com">
               Share your consulting needs with us <IoIosArrowRoundForward />
             </a>
           </motion.div>
@@ -48,7 +48,7 @@ const ContactUs = () => {
             <FaWhatsapp size={20} />
             <h6 className="text-bold">WhatsApp</h6>
             <small>(+44) 7943 722218</small>
-            <a className="text-muted" href="https://wa.me/447943722218">
+            <a className=" text-white" href="https://wa.me/447943722218">
               We’d love to hear about your consulting needs!{" "}
               <IoIosArrowRoundForward />
             </a>
@@ -62,7 +62,7 @@ const ContactUs = () => {
             <SlLocationPin size={20} />
             <h6 className="text-bold">Address</h6>
             <small>123 Consulting St, London, UK</small>
-            <small className="text-muted">Near Central Square</small>
+            <small className="text-white">Near Central Square</small>
           </motion.div>
 
           {/* Office Time Box */}

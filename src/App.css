@@ -303,7 +303,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.why {
+.why, .box {
   background-color: #456d8f;
   color: #ffffff;
   background: linear-gradient(130deg, #456d8f, #1b1f2a);
