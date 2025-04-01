@@ -697,7 +697,7 @@ a {
 
 
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
   .h-contact {
     display: none !important;
     /* visibility: hidden; */
