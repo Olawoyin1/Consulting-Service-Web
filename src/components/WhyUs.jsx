@@ -69,7 +69,7 @@ const WhyUs = () => {
           {/* Left Side (First 3 Items) */}
           <div className="left d-flex flex-column gap-md-4 gap-5">
             {whyChooseUs.slice(0, 3).map((item) => (
-              <div key={item.id} className="why">
+              <div key={item.id} className="">
                 <div className="why-card  d-flex  gap-3">
                   <div className="why-card-image">
                     <img src={item.image} alt={item.name} />
@@ -117,7 +117,7 @@ const WhyUs = () => {
           {/* Right Side (Last 3 Items) */}
           <div className="right d-flex flex-column gap-md-4 gap-5">
             {whyChooseUs.slice(3, 6).map((item) => (
-              <div key={item.id} className="why ">
+              <div key={item.id} className="">
                 <div className="why-card d-flex gap-3">
                   <div className="why-card-image">
                     <img src={item.image} alt={item.name} />
