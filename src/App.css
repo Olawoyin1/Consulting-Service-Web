@@ -297,6 +297,11 @@ a {
   grid-gap: 1rem;
 }
 
+.about-image img{
+  object-fit: cover;
+  height: 100%;
+}
+
 
 
 
@@ -516,6 +521,19 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+}
+
+.equal-grid .image{
+  height: 359px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.equal-grid .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 

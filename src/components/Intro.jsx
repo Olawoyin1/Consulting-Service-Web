@@ -5,8 +5,8 @@ const Intro = () => {
     <div className="my-4 py-5">
       <div className="container2">
         <div className="grid3">
-          <div className="">
-            <img src="../../Images/6096.jpg" alt="" />
+          <div className="about-image">
+            <img src="../../Images/about.jpg" loading="lazy" alt="" />
           </div>
           <div className="d-flex flex-column gap-3 align-items-start">
             <h6 className="hero-heading-text  fw-bolder">GET TO KNOW US</h6>

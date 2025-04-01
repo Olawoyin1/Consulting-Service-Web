@@ -64,8 +64,8 @@ const FAQ = () => {
 
 
                 <div className="equal-grid">
-                    <div className="image d-none d-md-grid">
-                        <img src="../../Images/faq.jpg" alt="" />
+                    <div className="image d-none d-md-flex align-items-center justify-content-center">
+                        <img src="../../Images/faq.png" alt="" />
                     </div>
 
                     {/* FAQ Section */}
