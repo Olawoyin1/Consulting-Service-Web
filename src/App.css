@@ -298,9 +298,10 @@ a {
 }
 
 .grid3 .about-image{
-  min-height: 200px;
+  /* min-height: 200px;
+  height */
+  height: fit-content;
   overflow: hidden;
-  background-color: red;
 }
 
 .grid3 .about-image img{

@@ -52,7 +52,7 @@ const Header = () => {
           {/* Contact & Menu Icons */}
           <ul className="d-flex align-items-center gap-3 m-0 p-0">
             <div className="h-contact m-0 p-0">
-              <small className="muted text-danger m-0">Need Help? Talk to an Expert</small>
+              <small className="muted m-0">Need Help? Talk to an Expert</small>
               <p className="m-0">(+44) 7943 722218</p>
             </div>
 
