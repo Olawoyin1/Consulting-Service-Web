@@ -300,6 +300,7 @@ a {
 .grid3 .about-image{
   min-height: 200px;
   overflow: hidden;
+  background-color: red;
 }
 
 .grid3 .about-image img{
